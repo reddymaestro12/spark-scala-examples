@@ -13,6 +13,7 @@ object SparkSessionTest {
       .getOrCreate();
     
     println("First SparkContext:")
+    print("***************PR Testing Line**********")
     println("APP Name :"+spark.sparkContext.appName);
     println("Deploy Mode :"+spark.sparkContext.deployMode);
     println("Master :"+spark.sparkContext.master);
